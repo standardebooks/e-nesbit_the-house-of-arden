@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/e-nesbit/the-house-of-arden</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2020-12-15T21:45:06Z</dc:date>
+		<meta property="dcterms:modified">2020-12-15T21:45:06Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -48,17 +48,17 @@
 		<meta property="se:subject">Fantasy</meta>
 		<dc:description id="description">Two children, with the aid of a magical white mole, travel into the past in search of their family’s long-lost treasure.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-		&lt;p&gt;Edith Nesbit (writing under the name of &lt;a href="https://standardebooks.org/ebooks/e-nesbit"&gt;E. Nesbit&lt;/a&gt;) was a popular children’s author of the late Victorian and early Edwardian eras in Britain. Though she was writing more than a century ago, her books nevertheless remain popular and are generally still in print.&lt;/p&gt;
-		&lt;p&gt;&lt;i&gt;The House of Arden&lt;/i&gt; was published in 1908. Like her other, perhaps better known tales such as &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/e-nesbit/five-children-and-it"&gt;Five Children and It&lt;/a&gt;&lt;/i&gt;, the story takes quite ordinary children of the time and plunges them into fantastical adventures.&lt;/p&gt;
-		&lt;p&gt;In this book, two children, with the interesting Saxon names of Edred and Elfrida, aged 10 and 12 respectively, discover that due to the death of a distant relative, young Edred is now Lord of Arden. The estate consists of not much more than a little money, a crumbling castle and an attached house. An old retainer tells them of a legend regarding the Lord of Arden and a buried treasure. Naturally they are eager to locate the treasure, which may help them restore the castle. They discover a way to summon up the mascot of the House, a white mole or mouldiwarp. This magical creature enables them to travel back through time to various periods in search of the treasure.&lt;/p&gt;
+		&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/e-nesbit"&gt;Edith Nesbit&lt;/a&gt; was a popular children’s author of the late Victorian and early Edwardian eras in Britain. Though she was writing more than a century ago, her books nevertheless remain popular and are generally still in print.&lt;/p&gt;
+		&lt;p&gt;&lt;i&gt;The House of Arden&lt;/i&gt; was published in 1908. Like her other, perhaps better known tales, such as &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/e-nesbit/five-children-and-it"&gt;Five Children and It&lt;/a&gt;&lt;/i&gt;, the story takes quite ordinary children of the time and plunges them into fantastical adventures.&lt;/p&gt;
+		&lt;p&gt;In this book, two children, with the interesting Saxon names of Edred and Elfrida, aged 10 and 12 respectively, discover that due to the death of a distant relative, young Edred is now Lord of Arden. The estate consists of not much more than a little money, a crumbling castle, and an attached house. An old retainer tells them of a legend regarding the Lord of Arden and a buried treasure. Naturally they are eager to locate the treasure, which may help them restore the castle. They discover a way to summon up the mascot of the House, a white mole or “mouldiwarp,” who enables them to travel back through time in search of the treasure.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/57799</dc:source>
 		<dc:source>https://www.google.com/books/edition/The_Strand_Magazine/oZJCAQAAMAAJ</dc:source>
 		<dc:source>https://www.google.com/books/edition/The_Strand/y5hAAQAAMAAJ</dc:source>
 		<meta property="se:production-notes">I was unable to find page scans of the book version and so have relied on the original serialization in The Strand magazine. However, in the Gutenberg transcription (and in modern reprints) there’s a puzzling passage at the end of chapter 11, which doesn’t appear in the magazine serialization. The children’s aunt seems about to reveal that she knows their father is alive. Yet the following chapter has no mention of this, and later this information appears to be a complete surprise to the aunt. It’s hard to say whether this added passage was a mistake on the author’s part or not, so I've left it in.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">74684</meta>
+		<meta property="se:reading-ease.flesch">80.41</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_House_of_Arden</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/e-nesbit_the-house-of-arden</meta>
 		<dc:creator id="author">E. Nesbit</dc:creator>
@@ -91,6 +91,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
