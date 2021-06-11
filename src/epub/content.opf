@@ -61,7 +61,7 @@
 		<dc:source>https://www.google.com/books/edition/The_Strand_Magazine/oZJCAQAAMAAJ</dc:source>
 		<dc:source>https://www.google.com/books/edition/The_Strand/y5hAAQAAMAAJ</dc:source>
 		<meta property="se:production-notes">I was unable to find page scans of the book version and so have relied on the original serialization in The Strand magazine. However, in the Gutenberg transcription (and in modern reprints) there’s a puzzling passage at the end of chapter 11, which doesn’t appear in the magazine serialization. The children’s aunt seems about to reveal that she knows their father is alive. Yet the following chapter has no mention of this, and later this information appears to be a complete surprise to the aunt. It’s hard to say whether this added passage was a mistake on the author’s part or not, so I've left it in.</meta>
-		<meta property="se:word-count">74685</meta>
+		<meta property="se:word-count">74712</meta>
 		<meta property="se:reading-ease.flesch">80.41</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_House_of_Arden</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/e-nesbit_the-house-of-arden</meta>
