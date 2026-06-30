@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/e-nesbit/the-house-of-arden</dc:identifier>
 		<dc:date>2020-12-15T21:45:06Z</dc:date>
 		<meta property="dcterms:modified">2020-12-15T21:45:06Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -44,8 +45,8 @@
 		<meta property="term" refines="#subject-4">sh2008112905</meta>
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">Unknown</meta>
-		<meta property="se:subject">Children’s</meta>
-		<meta property="se:subject">Fantasy</meta>
+		<meta property="schema:genre">Children’s</meta>
+		<meta property="schema:genre">Fantasy</meta>
 		<meta id="collection-1" property="belongs-to-collection">House of Arden</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">1</meta>
@@ -59,21 +60,22 @@
 		<dc:source>https://www.gutenberg.org/ebooks/57799</dc:source>
 		<dc:source>https://www.google.com/books/edition/The_Strand_Magazine/oZJCAQAAMAAJ</dc:source>
 		<dc:source>https://www.google.com/books/edition/The_Strand/y5hAAQAAMAAJ</dc:source>
-		<meta property="se:production-notes">I was unable to find page scans of the book version and so have relied on the original serialization in The Strand magazine. However, in the Gutenberg transcription (and in modern reprints) there’s a puzzling passage at the end of chapter 11, which doesn’t appear in the magazine serialization. The children’s aunt seems about to reveal that she knows their father is alive. Yet the following chapter has no mention of this, and later this information appears to be a complete surprise to the aunt. It’s hard to say whether this added passage was a mistake on the author’s part or not, so I've left it in.</meta>
-		<meta property="se:word-count">72678</meta>
-		<meta property="se:reading-ease.flesch">80.51</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_House_of_Arden</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/e-nesbit_the-house-of-arden</meta>
+		<meta property="schema:wordCount">72678</meta>
+		<meta property="schema:educationalLevel">80.51</meta>
+		<link href="https://en.wikipedia.org/wiki/The_House_of_Arden" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/e-nesbit_the-house-of-arden" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">E. Nesbit</dc:creator>
 		<meta property="file-as" refines="#author">Nesbit, E.</meta>
-		<meta property="se:name.person.full-name" refines="#author">Edith Nesbit</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/E._Nesbit</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n85097242</meta>
+		<meta property="schema:alternateName" refines="#author">Edith Nesbit</meta>
+		<link href="https://en.wikipedia.org/wiki/E._Nesbit" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n85097242.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Godfried Schalcken</dc:contributor>
 		<meta property="file-as" refines="#artist">Schalcken, Godfried</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Godfried_Schalcken</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr89015504</meta>
+		<link href="https://en.wikipedia.org/wiki/Godfried_Schalcken" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/nr89015504.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Delphine Lettau</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Lettau, Delphine</meta>
@@ -83,11 +85,11 @@
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">David Grigg</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Grigg, David</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://thegriggs.org/david/</meta>
+		<link href="https://thegriggs.org/david/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -96,7 +98,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
