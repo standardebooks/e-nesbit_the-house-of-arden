@@ -50,7 +50,7 @@
 		<meta id="collection-1" property="belongs-to-collection">House of Arden</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">1</meta>
-		<dc:abstract>Two children, with the aid of a magical white mole, travel into the past in search of their family’s long-lost treasure.</dc:abstract>
+		<meta property="schema:abstract">Two children, with the aid of a magical white mole, travel into the past in search of their family’s long-lost treasure.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/e-nesbit"&gt;Edith Nesbit&lt;/a&gt; was a popular children’s author of the late Victorian and early Edwardian eras in Britain. Though she was writing more than a century ago, her books nevertheless remain popular and are generally still in print.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;The House of Arden&lt;/i&gt; was published in 1908. Like her other, perhaps better known tales, such as &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/e-nesbit/five-children-and-it"&gt;Five Children and It&lt;/a&gt;&lt;/i&gt;, the story takes quite ordinary children of the time and plunges them into fantastical adventures.&lt;/p&gt;
