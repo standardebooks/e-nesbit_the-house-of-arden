@@ -30,11 +30,11 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The House of Arden</dc:title>
 		<meta property="file-as" refines="#title">House of Arden, The</meta>
-		<dc:subject id="subject-1">Brothers and sisters -- Juvenile fiction</dc:subject>
-		<dc:subject id="subject-2">Treasure troves -- Juvenile fiction</dc:subject>
-		<dc:subject id="subject-3">Magic -- Juvenile fiction</dc:subject>
-		<dc:subject id="subject-4">Time travel -- Juvenile fiction</dc:subject>
-		<dc:subject id="subject-5">Great Britain -- History -- Edward VII, 1901-1910 -- Juvenile fiction</dc:subject>
+		<dc:subject id="subject-1">Brothers and sisters--Juvenile fiction</dc:subject>
+		<dc:subject id="subject-2">Treasure troves--Juvenile fiction</dc:subject>
+		<dc:subject id="subject-3">Magic--Juvenile fiction</dc:subject>
+		<dc:subject id="subject-4">Time travel--Juvenile fiction</dc:subject>
+		<dc:subject id="subject-5">Great Britain--History--Edward VII, 1901-1910--Juvenile fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh2007102168</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
